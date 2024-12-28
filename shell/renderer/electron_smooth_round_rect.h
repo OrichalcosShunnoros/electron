@@ -9,12 +9,15 @@
 
 namespace electron {
 
-SkPath CalculateSmoothRoundRect(float x,
-                                float y,
-                                float width,
-                                float height,
-                                float roundness,
-                                float radius);
+SkPath DrawSmoothRoundRect(float x,
+                           float y,
+                           float width,
+                           float height,
+                           float roundness,
+                           float top_left_radius,
+                           float top_right_radius,
+                           float bottom_right_radius,
+                           float bottom_left_radius);
 
 }  // namespace electron
 
